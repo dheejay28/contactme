@@ -40,19 +40,19 @@ body, html {
 }
 
 .front {
-    background: linear-gradient(135deg, #f3f3f3 25%, transparent 25%) -50px 0,
-                linear-gradient(225deg, #f3f3f3 25%, transparent 25%) -50px 0,
-                linear-gradient(315deg, #f3f3f3 25%, transparent 25%),
-                linear-gradient(45deg, #f3f3f3 25%, transparent 25%);
+    background: linear-gradient(135deg, #000000 25%, transparent 25%) -50px 0,
+                linear-gradient(225deg, #000000 25%, transparent 25%) -50px 0,
+                linear-gradient(315deg, #000000 25%, transparent 25%),
+                linear-gradient(45deg, #000000 25%, transparent 25%);
     background-size: 100px 100px;
     overflow: hidden;
 }
 
 .back {
-    background: linear-gradient(135deg, #f3f3f3 25%, transparent 25%) -50px 0,
-                linear-gradient(225deg, #f3f3f3 25%, transparent 25%) -50px 0,
-                linear-gradient(315deg, #f3f3f3 25%, transparent 25%),
-                linear-gradient(45deg, #f3f3f3 25%, transparent 25%);
+    background: linear-gradient(135deg, #454545 25%, transparent 25%) -50px 0,
+                linear-gradient(225deg, #454545 25%, transparent 25%) -50px 0,
+                linear-gradient(315deg, #454545 25%, transparent 25%),
+                linear-gradient(45deg, #454545 25%, transparent 25%);
     background-size: 100px 100px;
     transform: rotateY(180deg);
     overflow: hidden;
