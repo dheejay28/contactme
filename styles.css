@@ -5,10 +5,10 @@ body, html {
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #000000 25%, transparent 25%) -50px 0,
-                linear-gradient(225deg, #000000 25%, transparent 25%) -50px 0,
-                linear-gradient(315deg, #000000 25%, transparent 25%),
-                linear-gradient(45deg, #000000 25%, transparent 25%);
+    background: linear-gradient(135deg, #ffffff 25%, transparent 25%) -50px 0,
+                linear-gradient(225deg, #ffffff 25%, transparent 25%) -50px 0,
+                linear-gradient(315deg, #ffffff 25%, transparent 25%),
+                linear-gradient(45deg, #ffffff 25%, transparent 25%);
     background-size: 100px 100px;
 }
 
