@@ -18,6 +18,7 @@ body, html {
     position: relative;
     transition: transform 0.6s;
     transform-style: preserve-3d;
+    cursor: pointer; /* Change cursor to indicate interactivity */
 }
 
 .front, .back {
@@ -57,4 +58,33 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.geometric-design {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.shape {
+    width: 40px;
+    height: 40px;
+}
+
+.circle {
+    background-color: #ff6347;
+    border-radius: 50%;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 40px solid #4682b4;
+}
+
+.square {
+    background-color: #32cd32;
 }
